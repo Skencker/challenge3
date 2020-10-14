@@ -1,0 +1,122 @@
+/*
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Violet: hsl(257, 40%, 49%)
+
+## Typography
+
+### Headings
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 400, 700
+
+### Body
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400
+
+## Icons
+
+For the social icons, you can use a font icon library. Some suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com/)
+- [IcoMoon](https://icomoon.io/)
+- [Ionicons](https://ionicons.com/)
+*/
+
+body {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(/images/bg-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  position:relative;
+  padding-top: 50px;
+  height: 4rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height:700px;
+}
+
+
+
+svg {
+  display: flex;
+  margin-left : 8rem;
+}
+
+.text {
+  width: 50rem;
+  height: 500px;
+  margin-left : 5rem;
+  margin-right: 6rem;
+
+  color: white;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 0px;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+button {
+  height: 3rem;
+  width: 12rem;
+  color: hsl(257, 40%, 49%);
+  
+  border-radius: 30px 30px;
+  border: none;
+  background: white;
+  font-size: 1rem;
+  box-shadow: 0px 5px 10px rgb(88, 88, 88);
+}
+
+.svg {
+  display:flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.svg-items {
+  margin-left: 2rem;
+  width: 2.5rem;
+  
+}
+
+footer {
+  margin-right: 5rem;
+}
+
